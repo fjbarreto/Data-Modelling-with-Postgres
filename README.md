@@ -50,7 +50,7 @@ For this project a star schema with one **fact** table (songplays) and 4 **dimen
 
 • **create_tables.py**: python script that executes drop and create statements from **sql_queries.py** in our postgres db.
 
-• **etl.py**: python script with user defined functions that extract, transform and loads data into our tables from the JSON files.
+• **etl.py**: python script with user defined functions that extract, transform and loads data into our tables from logs and songs JSON files.
 
 # SQL analytics query example
 
